@@ -1,4 +1,4 @@
-# Practice
+## Geometric Series
 In this application, you are given a geometric series with **x**, **y**, and **n** variables. The series is (x+ 2^0 * y), (x+ 2^0 * y + 2^1 * y), ..., (x+ 2^0 * y + ... + 2^n-1 * y). The application will receive how the number of queries and x, y, n values for each query.
 
 One of the key points in this application is to use of Math class. **Java doesn't recognize the "^" symbol as a power operator [1]**. Instead use "Math.pow(2, n)". 
